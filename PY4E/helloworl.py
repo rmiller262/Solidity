@@ -1,0 +1,5 @@
+print('hello world')
+print('I love, Python a lot!')
+print (2**100)
+print ('Playofffs? Playoffs')
+print (3*4/12 *100)
