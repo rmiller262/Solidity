@@ -1,0 +1,113 @@
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+> Something went wrong while attempting to connect to the network at http://127.0.0.1:7545. Check your network configuration.
+ProviderError: 
+Could not connect to your Ethereum client with the following parameters:
+    - host       > 127.0.0.1
+    - port       > 7545
+    - network_id > 5777
+Please check that your Ethereum client:
+    - is running
+    - is accepting RPC connections (i.e., "--rpc" or "--http" option is used in geth)
+    - is accessible over the network
+    - is properly configured in your Truffle configuration file (truffle-config.js)
+
+    at C:\Users\18323\AppData\Roaming\npm\node_modules\truffle\build\webpack:\packages\provider\wrapper.js:76:1
+    at C:\Users\18323\AppData\Roaming\npm\node_modules\truffle\build\webpack:\packages\provider\wrapper.js:114:1
+    at XMLHttpRequest.request.onreadystatechange (C:\Users\18323\AppData\Roaming\npm\node_modules\truffle\build\webpack:\node_modules\web3-providers-http\lib\index.js:98:1)
+    at XMLHttpRequestEventTarget.dispatchEvent (C:\Users\18323\AppData\Roaming\npm\node_modules\truffle\build\webpack:\node_modules\xhr2-cookies\dist\xml-http-request-event-target.js:34:1)
+    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (C:\Users\18323\AppData\Roaming\npm\node_modules\truffle\build\webpack:\node_modules\xhr2-cookies\dist\xml-http-request.js:208:1)
+    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpRequestError (C:\Users\18323\AppData\Roaming\npm\node_modules\truffle\build\webpack:\node_modules\xhr2-cookies\dist\xml-http-request.js:349:1)
+    at ClientRequest.<anonymous> (C:\Users\18323\AppData\Roaming\npm\node_modules\truffle\build\webpack:\node_modules\xhr2-cookies\dist\xml-http-request.js:252:48)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Truffle v5.6.1 (core: 5.6.1)
+Node v16.17.1
+PS C:\Users\18323\Desktop\20221006-trading_bot_masterclass-code> truffle migrate --reset
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+> Something went wrong while attempting to connect to the network at http://127.0.0.1:7545. Check your network configuration.
+ProviderError: 
+Could not connect to your Ethereum client with the following parameters:
+    - host       > 127.0.0.1
+    - port       > 7545
+    - network_id > 5777
+Please check that your Ethereum client:
+    - is running
+    - is accepting RPC connections (i.e., "--rpc" or "--http" option is used in geth)
+    - is accessible over the network
+    - is properly configured in your Truffle configuration file (truffle-config.js)
+
+    at C:\Users\18323\AppData\Roaming\npm\node_modules\truffle\build\webpack:\packages\provider\wrapper.js:76:1
+    at C:\Users\18323\AppData\Roaming\npm\node_modules\truffle\build\webpack:\packages\provider\wrapper.js:114:1
+    at XMLHttpRequest.request.onreadystatechange (C:\Users\18323\AppData\Roaming\npm\node_modules\truffle\build\webpack:\node_modules\web3-providers-http\lib\index.js:98:1)
+    at XMLHttpRequestEventTarget.dispatchEvent (C:\Users\18323\AppData\Roaming\npm\node_modules\truffle\build\webpack:\node_modules\xhr2-cookies\dist\xml-http-request-event-target.js:34:1)
+    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._setReadyState (C:\Users\18323\AppData\Roaming\npm\node_modules\truffle\build\webpack:\node_modules\xhr2-cookies\dist\xml-http-request.js:208:1)
+    at XMLHttpRequest.exports.modules.996763.XMLHttpRequest._onHttpRequestError (C:\Users\18323\AppData\Roaming\npm\node_modules\truffle\build\webpack:\node_modules\xhr2-cookies\dist\xml-http-request.js:349:1)
+    at ClientRequest.<anonymous> (C:\Users\18323\AppData\Roaming\npm\node_modules\truffle\build\webpack:\node_modules\xhr2-cookies\dist\xml-http-request.js:252:48)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Truffle v5.6.1 (core: 5.6.1)
+Node v16.17.1
+PS C:\Users\18323\Desktop\20221006-trading_bot_masterclass-code> ganache cli
+Unknown argument: cli
+PS C:\Users\18323\Desktop\20221006-trading_bot_masterclass-code> ganache
+ganache v7.4.4 (@ganache/cli: 0.5.4, @ganache/core: 0.5.4)
+Starting RPC server
+
+Available Accounts
+==================
+(0) 0x6e1Cf9a8b666AAbbD5AfeDC5113EBD38ac1fE308 (1000 ETH)
+(1) 0x0c2bD73bdE4Eefa90335bDDe564Bc8f35b0d9b9E (1000 ETH)
+(2) 0xb19036aCf075c1a72Bf64BC30221cC7a99aC5650 (1000 ETH)
+(3) 0xf32DDf6A315F916C476A976662906921b4C83649 (1000 ETH)
+(4) 0x37c6C52602EF5C2Bc8bF41354a736a4B9ad279c3 (1000 ETH)
+(5) 0x87717DD28BF671D4387b57b411B49dbdD93FFEc2 (1000 ETH)
+(6) 0x3F8A40fcBa4A892D32f2F21B9762AEbE57B3dAEc (1000 ETH)
+(7) 0x82E46FC0B770C4D8c6f677C366fF495002423258 (1000 ETH)
+(8) 0x73F60705f07bE42576ee5596f0030542CA35Ab96 (1000 ETH)
+(9) 0xd5865AD7393DD46bAf3c6F683B8131c933c226Ec (1000 ETH)
+
+Private Keys
+==================
+(0) 0x6530c368b24e5479fff96c41fdd3c16b5774d9196e4b344b37c616c729e6efb4
+(1) 0xdbbdfa5d1d3d9ff55cfda906d087760f50104f9c30aa22258d6528c8adf0e095
+(2) 0x404d78ff6407077e58280998042e9a15c62836bfbd4dd041544085d92bae5636
+(3) 0x6dbdcebc2f73a7cfd10245dce4481c6fd946f78fe9934d66cd43f4f28bb12a4c
+(4) 0xcb86700777096f7a5ff2c920097eb2e1cf3df41072bf6e955d35b4a495d049d2
+(5) 0xaca93a157d7fa9546208cf04437bf54db73e871a29b525c1b3dff784e9bd136b
+(6) 0xe615e1c96eaefb7a32aa4796c7378544a5f1bf65a51837f587fa47d87c06b1c5
+(7) 0x6d74498727b0ecbb396436978adb6955a95b74d5a26314f7e08167250e07b0b1
+(8) 0x200609ded17346f866f9e797759472d0cf7ba4beccc823157f07d37be3a7ffd9
+(9) 0xdde4dbe66dfd156bbc76b51ef53db87ed9bbaaae78919fc59dac677fb039f20b
+
+HD Wallet
+==================
+Mnemonic:      boat stairs sense normal interest kind capable rural extra unfair blood know
+Base HD Path:  m/44'/60'/0'/0/{account_index}
+
+Default Gas Price
+==================
+2000000000
+
+BlockGas Limit
+==================
+30000000
+
+Call Gas Limit
+==================
+50000000
+
+Chain Id
+==================
+1337
+
+RPC Listening on 127.0.0.1:8545
